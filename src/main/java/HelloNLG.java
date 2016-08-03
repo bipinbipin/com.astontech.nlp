@@ -8,6 +8,9 @@ import java.util.HashMap;
 
 /**
  * Created by Bipin on 8/1/2016.
+ *
+ * walk along of the tutorial here:     https://github.com/simplenlg/simplenlg/wiki/Section-0-%E2%80%93-SimpleNLG-Tutorial
+ *
  */
 public class HelloNLG {
 
