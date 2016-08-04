@@ -25,7 +25,8 @@
         <module name="com.astontech.nlp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="com.astontech.nlp" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
