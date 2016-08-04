@@ -1,3 +1,5 @@
+package com.astontech.nlp.nlg;
+
 import simplenlg.framework.*;
 import simplenlg.lexicon.*;
 import simplenlg.realiser.english.*;
