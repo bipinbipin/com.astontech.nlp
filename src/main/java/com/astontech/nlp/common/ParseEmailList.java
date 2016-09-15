@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
  */
 public class ParseEmailList {
 
+    //
     public static void main(String[] args) {
         String filePath =  "C:\\Users\\Aston\\Dropbox\\bipin\\Aston\\Odd Jobs\\emailList.txt";
         addFilesToList(filePath);
