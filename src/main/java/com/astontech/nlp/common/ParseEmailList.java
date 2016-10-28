@@ -16,7 +16,7 @@ public class ParseEmailList {
 
     //
     public static void main(String[] args) {
-        String filePath =  "C:\\Users\\Aston\\Dropbox\\bipin\\Aston\\Odd Jobs\\emailList.txt";
+        String filePath =  "C:\\Users\\Aston\\Dropbox\\bipin\\Aston\\Odd Jobs\\emailList2.txt";
         addFilesToList(filePath);
     }
 
@@ -26,7 +26,7 @@ public class ParseEmailList {
 
         try
         {
-            HashSet<String> hashSet = new HashSet<>();
+            HashSet<String> hashSet = new HashSet<String>();
             try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
                 String line;
                 while ((line = br.readLine()) != null) {
